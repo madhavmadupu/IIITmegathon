@@ -14,7 +14,6 @@ os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 os.environ['SDL_AUDIODRIVER'] = 'dummy'
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
-
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-gpu')
